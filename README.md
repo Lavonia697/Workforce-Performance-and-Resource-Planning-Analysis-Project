@@ -96,7 +96,10 @@ Evaluates financial performance:
   ---
 
   ## Dashboard Preview
-
+![Alt Text](<screenshots/Overview Dashboard.png>)
+![Alt Text](<screenshots/Resource Utilization Dashboard.png>)
+![Alt Text](<screenshots/Project Timeline & Delay Analysis.png>)
+![Alt Text](<screenshots/Cost & Efficiency Analysis.png>)
 
 ---
 
