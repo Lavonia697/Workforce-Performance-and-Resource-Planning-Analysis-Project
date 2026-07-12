@@ -1,5 +1,9 @@
 # Workforce-Performance-and-Resource-Planning-Analysis
-## Overview
+## Multi-Project Health | Resource Utilisation | Delay Diagnostics
+![Alt Text](https://github.com/Lavonia697/Workforce-Performance-and-Resource-Planning-Analysis-Project/blob/main/screenshots/Overview%20Dashboard.png?raw=true)
+
+
+## Project Overview
 This project analyzes multi-project performance, resource utilization, timelines, and cost efficiency within a blue-collar operations environment.
 
 The goal is to provide data-driven insights that help organizations:
@@ -10,22 +14,27 @@ The goal is to provide data-driven insights that help organizations:
 
 ---
 
-## Business Problem
-Organizations managing multiple projects often face:
-- Delays due to poor planning
-- Overworked or underutilized employees
-- Budget overruns
-- Lack of visibility into project performance
-
-This dashboard solves these challenges by delivering real-time insights into project health, workforce usage, and cost efficiency
+## The Business Problem
+Organizations managing complex, concurrent project portfolios frequently suffer from blind spots in resource distribution. Without centralised operational analytics, management faces:
+- Project delays due to poor baseline scheduling.
+- Hidden resource allocation imbalances (severely overworked vs. underutilised personnel).
+- Creeping budget overruns across overlapping timelines.
+- Lack of visibility into project performance for executive scheduling.
 
   ---
 
-  ## Tools & Technologies
-  - Excel - Data cleaning & preprocessing
-  - MySQL - Data storage & relational modeling
-  - DAX - Advanced calculations and KPIs
-  - Power BI - Data visualization & dashboard development
+  ## Data Architecture & Star Schema
+  The underlying data infrastructure consists of four tables mapped into a high-performance **Star Schema** within Power BI to ensure efficient cross_filtering across dynamic timelines.
+  - **Projects:** Dimensional data capturing project attributes, macro-budgets, priorities, and status updates.
+  - **Tasks:** Event-driven data capturing individual task-level schedules, and completion metrics.
+  - **Resources:** Dimensional registry of the workforce, tracking specialised roles, skill levels, and hourly wages.
+  - **Resource Allocation:** The core transaction bridge mapping specific workers to distinct tasks, capturing *Planned vs. Actual Hours worked*.
+
+  ## Tools & Technologies Used
+  - **Excel:**  Initial data auditing, cleaning, and preprocessing
+  - **MySQL:** Database deployment, relational modeling, and table-to-table constraint verification.
+  - **DAX (Data Analysis Expressions):** Engineered custom time-intelligence KPIs, capacity utilisation matrices, and performance metrics.
+  - **Power BI Desktop:** Advanced data modelling, complex DAX analytics, and dashboard design.
 
 ## Data Model
 **This dataset was structured into four core tables:**
