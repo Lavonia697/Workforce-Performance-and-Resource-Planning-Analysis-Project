@@ -1,4 +1,4 @@
-# Project-Portfolio-Resource-Planning-Analysis
+# Workforce-Performance-and-Resource-Planning-Analysis
 ## Overview
 This project analyzes multi-project performance, resource utilization, timelines, and cost efficiency within a blue-collar operations environment.
 
@@ -19,7 +19,13 @@ Organizations managing multiple projects often face:
 
 This dashboard solves these challenges by delivering real-time insights into project health, workforce usage, and cost efficiency
 
----
+  ---
+
+  ## Tools & Technologies
+  - Excel - Data cleaning & preprocessing
+  - MySQL - Data storage & relational modeling
+  - DAX - Advanced calculations and KPIs
+  - Power BI - Data visualization & dashboard development
 
 ## Data Model
 **This dataset was structured into four core tables:**
@@ -34,14 +40,6 @@ This dashboard solves these challenges by delivering real-time insights into pro
 
 ![Alt Text](https://github.com/Lavonia697/Workforce-Performance-and-Resource-Planning-Analysis-Project/blob/main/data%20model/Performance%20and%20Resource%20Planning%20Dashboard.png?raw=true)
 
-  ---
-
-  ## Tools & Technologies
-  - Excel - Data cleaning & preprocessing
-  - MySQL - Data storage & relational modeling
-  - DAX - Advanced calculations and KPIs
-  - Power BI - Data visualization & dashboard development
-    
     ---
 
  # Dashboard Structure
@@ -79,6 +77,18 @@ Evaluates financial performance:
 
 ---
 
+  ## Dashboard Preview
+![Alt Text](https://github.com/Lavonia697/Workforce-Performance-and-Resource-Planning-Analysis-Project/blob/main/screenshots/Overview%20Dashboard.png?raw=true)
+
+![Alt Text](https://github.com/Lavonia697/Workforce-Performance-and-Resource-Planning-Analysis-Project/blob/main/screenshots/Project%20Timeline%20&%20Delay%20Analysis.png?raw=true)
+
+![Alt Text](https://github.com/Lavonia697/Workforce-Performance-and-Resource-Planning-Analysis-Project/blob/main/screenshots/Resource%20Utilisation%20Dashboard.png?raw=true)
+
+![Alt Text](https://github.com/Lavonia697/Workforce-Performance-and-Resource-Planning-Analysis-Project/blob/main/screenshots/Costs%20&%20Efficiency%20Analysis.png?raw=true)
+
+
+---
+
 ## Key Insights
 - High delay rate: Over 75% of tasks are delayed, indicating planning inefficiencies
 - Delays increased over time, suggesting worsening project execution
@@ -97,19 +107,6 @@ Evaluates financial performance:
  
   ---
 
-  ## Dashboard Preview
-![Alt Text](https://github.com/Lavonia697/Workforce-Performance-and-Resource-Planning-Analysis-Project/blob/main/screenshots/Overview%20Dashboard.png?raw=true)
-![Alt Text](<screenshots/Project Timeline & Delay Analysis.png>)
-![Alt Text](https://github.com/Lavonia697/Workforce-Performance-and-Resource-Planning-Analysis-Project/blob/main/screenshots/Resource%20Utilisation%20Dashboard.png?raw=true)
-![Alt Text](https://github.com/Lavonia697/Workforce-Performance-and-Resource-Planning-Analysis-Project/blob/main/screenshots/Costs%20&%20Efficiency%20Analysis.png?raw=true)
----
-
-## What This Project Demonstrates
-- End-to-end data analysis workflow
-- Strong understanding of data modeling & relationships
-- Ability to translate data into business insights
-- Advanced Power BI skills (DAX, heatmaps, KPIs, tooltips)
-- Real-world application of operations analytics
 
   ---
 
