@@ -22,15 +22,17 @@ This dashboard solves these challenges by delivering real-time insights into pro
 ---
 
 ## Data Model
-This dataset was structured into four core tables:
+**This dataset was structured into four core tables:**
 - Projects - Project details, budget, priority, and status
 - Tasks - Task-level timelines and completion status
 - Resources - Worker roles, skill levels, and hourly rates
 - Resource Allocation - Mapping of workers to tasks with planned vs actual hours
 
-A relational data model was implemented using:
+**A relational data model was implemented using:**
 - Primary & Foreign Keys in MySQL
 - Star schema relationships in Power BI
+
+![Alt Text](https://github.com/Lavonia697/Workforce-Performance-and-Resource-Planning-Analysis-Project/blob/main/data%20model/Performance%20and%20Resource%20Planning%20Dashboard.png?raw=true)
 
   ---
 
@@ -39,7 +41,7 @@ A relational data model was implemented using:
   - MySQL - Data storage & relational modeling
   - DAX - Advanced calculations and KPIs
   - Power BI - Data visualization & dashboard development
-  - 
+    
     ---
 
  # Dashboard Structure
@@ -79,10 +81,10 @@ Evaluates financial performance:
 
 ## Key Insights
 - High delay rate: Over 75% of tasks are delayed, indicating planning inefficiencies
-- Delays increasing over time, suggesting worsening project execution
-- Workforce overutilized (113%), indicating capacity strain
+- Delays increased over time, suggesting worsening project execution
 - Budget overruns present, with several projects exceeding planned costs
 - Resource bottlenecks identified in key roles
+- The workforce is running at 113% capacity, meaning they are chronically overworked, which is directly causing bottlenecks, fatigue, and resulting 75% project delay rate. 
 
   ---
 
@@ -97,6 +99,7 @@ Evaluates financial performance:
 
   ## Dashboard Preview
 ![Alt Text](<screenshots/Overview Dashboard.png>)
+![Alt Text](
 ![Alt Text](<screenshots/Resource Utilization Dashboard.png>)
 ![Alt Text](<screenshots/Project Timeline & Delay Analysis.png>)
 ![Alt Text](https://github.com/Lavonia697/Workforce-Performance-and-Resource-Planning-Analysis-Project/blob/main/screenshots/Resource%20Utilisation%20Dashboard.png?raw=true)
