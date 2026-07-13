@@ -99,20 +99,18 @@ Evaluates financial performance:
 ---
 
 ## Key Insights
-- High delay rate: Over 75% of tasks are delayed, indicating planning inefficiencies
-- Delays increased over time, suggesting worsening project execution
-- Budget overruns present, with several projects exceeding planned costs
-- Resource bottlenecks identified in key roles
-- The workforce is running at 113% capacity, meaning they are chronically overworked, which is directly causing bottlenecks, fatigue, and resulting 75% project delay rate. 
+- Over 75% of active tasks are delayed, directly indicating that labor capacity is the critical bottleneck. Despite operating at a grueling 113% utilisation rate, the workforce remains fundamentally understaffed. This chronic overutilisation triggers employee fatigue, which severely hinders execution speed, compounds the existing backlog, and increases operational error rates.
+- At first glance, a -13.72% cost variance appears positive, suggesting the portfolio is underspending. However, when paired with the 113% utilisationrate and the 75% project delay rate, this underspending is revealed to be a symptom of severe operational strain rather than fiscal discipline.
+- The strong correlation between negative cost variance and labor overutilisation indicates that the company has fewer active team members than originally planned. The current team is forced to operate at an unsustainable 113% capacity to absorb the operational slack, resulting in a total payroll figure that artificially sits beneath the baseline budget.
+- An average delay of 3.77 days shows that projects are not entirely stalled, but are systematically slipping past their committed deadlines. The workforce is constantly playing catch-up, exerting 113% effort just to cross the finish line roughly 3 to 4 days late. While the budget looks protected today, the portfolio's structural timeline is steadily eroding.
 
   ---
 
   ## Business Recommendations
-  - Improve project planning and scheduling accuracy
-  - Rebalance workloads to reduce employee overutilization
-  - Increase staffing in high-demand roles
-  - Implement early warning systems for delays
-  - Monitor cost vs performance continuously
+ - Initiate immediate recruitment or onboard targeted contractors for identified bottleneck roles. Adding personnel will pull the unsustainable 113% utilisation rate down closer to a healthy baseline (85-90%), mitigating employee burnout while accelerating execution to resolve the 75% task delay rate.
+ - Update future project bidding templates to account for true operational constraints. Because teams constistently finish tasks 3 to 4 days late, build a historical **15% chronological buffer** onto initial project timelines and adjust baseline payroll budgets upward to reflect realistic staffing requirements.
+ - Implement conditional formatting alerts within the Power BI tracking environment to catch creeping delays before they harden. Configure an early-warning trigger that flags any task where actual hours reach 85% of planned hours while the task completion status remains under 50%.
+ - Utilise the project allocation heatmap to actively pull underutilised or non-critical staff away from low-priority tasks, embedding them instead onto critical-path items within high-priority projects that are currently experiencing timeline erosion.
  
   ---
 
